@@ -1,9 +1,10 @@
-import React from 'react'
+import Sidebar from "./components/Sidebar"
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className="flex">
+      <Sidebar/>
+      <h1 >Hello </h1>
     </div>
   )
 }
